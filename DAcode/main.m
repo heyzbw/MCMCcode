@@ -1,8 +1,8 @@
 clear;
 clc;
 
-% points = points_define();
-points = points_random();
+points = points_define(); % 自定义点集
+% points = points_random(); % 随机点集
 [~,~,pnum] = size(points);
 
 
